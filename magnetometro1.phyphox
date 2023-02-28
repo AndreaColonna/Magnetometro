@@ -8,14 +8,15 @@
         The magnetometer is quite sensitive as it is designed to measure the earth's magnetic field to act as a compass. However, it is always exposed to internal fields from the electronics in your phone, which lead to incorrect results. Therefore phyphox tries to get the calibrated magnetic field from the system. In some cases, you might not get any data, if it is not yet calibrated (for example after the phone has just started). In this case you should rotate your phone a few times while the experiment is running. This helps the system to calibrate the sensor. Also, on many devices (not all) you can switch to uncalibrated magnetometer data via the menu in the top right.
 
         Do not expose your phone to strong magnetic fields!
-    </description>
-	  <data-containers>
+  </description>
+  <data-containers>
     <container size="0">mag_time</container>   <!-- variabile per il tempo -->
     <container size="0">magX</container>       <!-- variabile per la componente x -->
     <container size="0">magY</container>       <!-- variabile per la componente y -->
     <container size="0">magZ</container>       <!-- variabile per la componente z -->
     <container size="0">mag</container>        <!-- variabile per il modulo --> 
     <container size="0">magAccuracy</container> <!-- variabile per l'accuratezza -->
+    <container size="0" static="false" init="">flag</container>
   </data-containers>
   <input>
     <sensor type="magnetic_field">              <!-- tipo di sensore -->
@@ -26,6 +27,7 @@
       <output component="abs">mag</output>      <!-- il modulo in mag --> 
       <output component="accuracy">magAccuracy</output> <!-- accuratezza in magAccuracy -->
     </sensor>
+    
   </input>
   
   <views>                 <!-- modulo schermate -->
@@ -51,7 +53,7 @@
         <input axis="x">mag_time</input>
         <input axis="y">magZ</input>
       </graph>
-      <button label="Sottrai Campo magnetico terrestre">
+      <button label="Cal">
        <!-- <input>newCal</input> -->
         <!-- <output>calibration</output> -->
       </button>
