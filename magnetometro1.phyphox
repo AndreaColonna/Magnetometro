@@ -51,6 +51,11 @@
         <input axis="x">mag_time</input>
         <input axis="y">magZ</input>
       </graph>
+      <button label="Sottrai Campo magnetico terrestre">
+       <!-- <input>newCal</input> -->
+        <!-- <output>calibration</output> -->
+      </button>
+
     </view>
     
     <view label="Absolute">   <!-- schermata "Absolute"  -->
@@ -70,10 +75,6 @@
       <value label="Absolute" size="2" precision="2" unit="[[unit_short_micro_tesla]]">
         <input>mag</input>
       </value>
-       <button label="Sottrai Campo magnetico terrestre">
-       <!-- <input>newCal</input> -->
-        <!-- <output>calibration</output> -->
-      </button>
     </view>
     <view label="Multi">
       <value label="Accuracy">
