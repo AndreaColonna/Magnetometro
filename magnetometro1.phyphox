@@ -55,7 +55,6 @@
       </graph>
       
       <button label="Cal">
-         <input>flag</input>
          <input type="value">1</input>
         <output>flag</output>
       </button>
