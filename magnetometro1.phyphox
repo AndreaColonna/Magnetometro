@@ -16,7 +16,7 @@
     <container size="0">magZ</container>       <!-- variabile per la componente z -->
     <container size="0">mag</container>        <!-- variabile per il modulo --> 
     <container size="0">magAccuracy</container> <!-- variabile per l'accuratezza -->
-    <container size="0" static="false" init="">flag</container>
+    <container size="0">flag</container>
   </data-containers>
   <input>
     <sensor type="magnetic_field">              <!-- tipo di sensore -->
