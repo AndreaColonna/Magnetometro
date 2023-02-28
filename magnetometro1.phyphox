@@ -54,10 +54,13 @@
         <input axis="y">magZ</input>
       </graph>
       <button label="Cal">
-       <!-- <input>newCal</input> -->
-        <!-- <output>calibration</output> -->
+         <input>flag</input>
+         <input type="value">1</input>
+        <!--<output>calibration</output> -->
       </button>
-
+      <value label ="flag">
+       <input>flag</input>
+      </value>
     </view>
     
     <view label="Absolute">   <!-- schermata "Absolute"  -->
