@@ -53,6 +53,7 @@
         <input axis="x">mag_time</input>
         <input axis="y">magZ</input>
       </graph>
+      
       <button label="Cal">
          <input>flag</input>
          <input type="value">1</input>
