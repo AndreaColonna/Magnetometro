@@ -149,6 +149,8 @@ Il valore reale viene mediato attarverso il valore statistico.
 	   <input type="empty" />
 	   <output>gaussian</output>
       </button>
+      <value label="Valore di Campo precedente" precision="3" scientific="false" unit="µT" factor="1">
+                <input>averageP</input>
     </view>
   </views>
 	
