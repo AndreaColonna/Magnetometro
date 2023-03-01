@@ -99,7 +99,7 @@ Il valore reale viene mediato attarverso il valore statistico.
     <view label="Misura statistica di mf">    <!-- grafico temporale di mf_x in funzione del tempo -->
             <graph label="misura di mf(t)" aspectRatio="2.5" style="lines" lineWidth="1" partialUpdate="true" history="1" labelX="t" labelY="mf" labelZ="" unitX="s" unitY="µT" unitZ="" logX="false" xPrecision="3" yPrecision="4" zPrecision="3" scaleMinX="auto" scaleMaxX="auto" scaleMinY="auto" scaleMaxY="auto" scaleMinZ="auto" scaleMaxZ="auto" minX="0" maxX="0" minY="0" maxY="0" minZ="0" maxZ="0"  mapWidth="0" >
                 <input axis="x">t</input>
-                <input axis="y">mfX-averageP</input>
+                <input axis="y">mfX</input>
             </graph>
 
             <graph label="Histogram" labelX="mf" labelY="Count" partialUpdate="false" unitX="µT" xPrecision="4"> <!-- istogramma dei valori di mf_x + gaussiana -->
@@ -163,10 +163,10 @@ Il valore reale viene mediato attarverso il valore statistico.
     </set>
 
         <set name="Dati statistici">
-						<data name="valor medio mf (µT)">average</data>
-						<data name="dev. st. mf (µT)">deviation</data>
-            <data name="Bin start (µT)">binStart</data>
-            <data name="Bin count">binCount</data>
+	<data name="valor medio mf (µT)">average</data>
+	<data name="dev. st. mf (µT)">deviation</data>
+        <data name="Bin start (µT)">binStart</data>
+        <data name="Bin count">binCount</data>
         </set>
   </export>
 	
