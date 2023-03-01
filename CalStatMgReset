@@ -109,7 +109,7 @@ Il valore reale viene mediato attarverso il valore statistico.
                 <input axis="y" style="vbars" color="E0E040" lineWidth="0.9">binCount</input>
             </graph>
 
-            <edit label="Bin size" unit="µT" default="0.01" signed="false">   <!-- spazio per l'inserimento dell'intervallo iniziale -->              
+            <edit label="Bin size" unit="µT" default="0.05" signed="false">   <!-- spazio per l'inserimento dell'intervallo iniziale -->              
                 <output>binSize</output>
             </edit>
             
