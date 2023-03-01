@@ -124,9 +124,27 @@ Il valore reale viene mediato attarverso il valore statistico.
             <value label="Conteggi" precision="0" scientific="false" unit="" factor="1">
                 <input>count</input>                                           <!-- numero di conteggi --> 
             </value>
-	  <button label="Cancella Dati">
-         <!--<input type="value">1</input> -->
-        <!--<output>flag</output> -->
+      <button label="Cancella Dati">
+           <input type="empty" />
+           <output>mfX</output>
+	   <input type="empty" />
+	   <output>t</output>
+	   <input type="empty" />
+	   <output>binCount</output>
+	   <input type="empty" />
+	   <output>average</output>
+	   <input type="empty" />
+	   <output>deviation</output>
+	   <input type="empty" />
+	   <output>count</output>
+           <input type="empty" />
+	   <output>minX</output>
+	   <input type="empty" />
+	   <output>maxX</output>
+	   <input type="empty" />
+	   <output>gaussianX</output>
+	   <input type="empty" />
+	   <output>gaussian</output>
       </button>
     </view>
   </views>
