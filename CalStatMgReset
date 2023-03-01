@@ -26,6 +26,7 @@ Il valore reale viene mediato attarverso il valore statistico.
 	        <container size="0">binStart</container>                    <!-- intervallo di partenza -->
 	        <container size="0">binCount</container>                    <!-- numero di intervalli -->
 	        <container size="1">average</container>                     <!-- valor medio di mf_x -->
+		<container size="1">averageP</container>                     <!-- valor medio PRIMA DEL RESET -->
 	        <container size="1">deviation</container>                   <!-- deviazione standard di mf_x -->
 	        <container size="1">count</container>                       <!-- numero di conteggi di mf_x -->
 <!-- contenitori per il calcolo della curva gaussiana teorica -->
@@ -125,7 +126,9 @@ Il valore reale viene mediato attarverso il valore statistico.
                 <input>count</input>                                           <!-- numero di conteggi --> 
             </value>
       <button label="Cancella Dati">
-           <input type="empty" />
+           <input>average</input>
+	   <output>averageP</output>
+	   <input type="empty" />
            <output>mfX</output>
 	   <input type="empty" />
 	   <output>t</output>
